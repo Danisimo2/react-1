@@ -4,6 +4,7 @@ import like from "./images/like.svg";
 import repost from "./images/repost.svg";
 import share from "./images/share.svg";
 import verified from "./images/verified.svg";
+import arrow from "./images/arrow.svg";
 
 const Post = (props) => {
   return (
@@ -23,6 +24,7 @@ const Post = (props) => {
             <p className="nickname">{props.author.nickname}</p>
             <p className="date">{props.date}</p>
           </div>
+          <img className="arrowDown" src={arrow} alt="arrow down" />
         </div>
         <div className="post__info">
           <p className="post_content">{props.content}</p>
