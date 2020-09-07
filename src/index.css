@@ -55,6 +55,10 @@ code {
 	font-size: 20px;
 }
 
+.name img{
+	max-width: 20px;
+	margin-left: 5px;
+}
 .post_content{
 	color: #fff;
 	font-size: 20px;
@@ -63,10 +67,56 @@ code {
 }
 .post_image{
 	width: 85%;
-	padding: 0 0 25px 25px;
+	padding: 0 0 15px 25px;
 }
 .post_image img{
 	display: block;
 	width: 100%;
 	border-radius: 20px;
+}
+
+.allIcons{
+	display: flex;
+	justify-content: space-between;
+	width: 65%;
+	padding-bottom: 15px;
+}
+.allIcons img{
+	width: 30px;
+	height: 30px;
+}
+.comentIcon{
+	display: flex;
+	margin-left: 35px;
+}
+.comentIcon p{
+	padding: 0px 0 0 3px;
+}
+
+.likeIcon{
+	display: flex;
+	margin-left: 35px;
+}
+
+
+.likeIcon p{
+	padding: 3px 0 0 3px;
+}
+
+
+.repostIcon{
+	display: flex;
+	margin-left: 35px;
+	margin-bottom: 15px;
+}
+.repostIcon p{
+	padding: 4px 0 0 3px;
+}
+
+.shareIcon{
+	display: flex;
+	margin-left: 35px;
+}
+.shareIcon p{
+	padding: 12px 0 0 3px;
 }
